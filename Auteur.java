@@ -1,3 +1,4 @@
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -55,4 +56,21 @@ private class Perf{
         return this.perform.get("DRAME").getCita();
     }
 
+
+    public String pointFort(){
+        int maxPerf = 0;
+        String maxKey = "nul";
+        for (Map.Entry<String, Perf> elementPerf : perform.entrySet()) {
+            Perf objet = elementPerf.getValue();
+            int valeurPerf = objet.getPerf();
+
+            
+            if (valeurPerf > maxPerf) {
+                maxPerf = valeurPerf;
+                maxKey = elementPerf.getKey();
+            }
+        
+        }
+        return maxKey;
+    }
 }

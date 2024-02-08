@@ -14,7 +14,4 @@ public enum Style {
 	}
     }
 
-	public String pointFort(){
-		...
-	}
 }
