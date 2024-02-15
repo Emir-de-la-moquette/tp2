@@ -2,7 +2,7 @@ import dionysies.Tournoi;
 
 class Main {
 
-public static void main() {
+public static void main(String[] args) {
     String citation_antigone =
         "C'est ainsi que j'irai reposer près de lui, chère à qui m'est cher, saintement"
             + " criminelle.";
@@ -83,6 +83,7 @@ public static void main() {
     tournoi.inscrire(euripide);
     tournoi.inscrire(aristophane);
     tournoi.afficheParticipants();
+
   }
 
   

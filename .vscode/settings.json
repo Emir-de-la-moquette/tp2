@@ -1,6 +1,12 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "tournoi.jar"
-    ]
+        "tournoi.jar",
+        "src/tournoi.jar",
+        "src\\hamcrest-2.2.jar",
+        "src\\junit-4.13.2.jar"
+    ],
+    "files.autoSave": "afterDelay",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "java.project.outputPath": "bin"
 }
