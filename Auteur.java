@@ -73,4 +73,10 @@ private class Perf{
         }
         return maxKey;
     }
+
+
+    @Override
+    public String toString(){
+        return "l'honorable "+this.nom;
+    }
 }
